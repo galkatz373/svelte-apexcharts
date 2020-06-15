@@ -1,6 +1,6 @@
 {
   "name": "svelte-apexcharts",
-  "version": "0.9.90",
+  "version": "1.0",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -30,5 +30,8 @@
   "files": [
     "src",
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "apexcharts": "^3.19.2"
+  }
 }
