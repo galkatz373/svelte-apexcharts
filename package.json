@@ -20,7 +20,12 @@
     "apexcharts": "^3.19.2"
   },
   "keywords": [
-    "svelte"
+    "svelte",
+    "apex",
+    "apexchart",
+    "svelte-charts",
+    "charts",
+    "data-visualization"
   ],
   "files": [
     "src",
