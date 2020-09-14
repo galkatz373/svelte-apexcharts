@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "apexcharts": "^3.19.3"
+    "apexcharts": "^3.20.2"
   },
   "keywords": [
     "svelte",
@@ -32,6 +32,6 @@
     "dist"
   ],
   "dependencies": {
-    "apexcharts": "^3.19.3"
+    "apexcharts": "^3.20.2"
   }
 }
