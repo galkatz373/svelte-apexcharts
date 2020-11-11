@@ -9,5 +9,8 @@ export const chart = (node, options) => {
     update(options) {
       myChart.updateOptions(options)
     },
+    destroy() {
+      myChart.destroy()
+    }
   }
 }
