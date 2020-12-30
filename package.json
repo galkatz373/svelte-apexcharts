@@ -32,6 +32,6 @@
     "dist"
   ],
   "dependencies": {
-    "apexcharts": "^3.22.2"
+    "apexcharts": "^3.23.1"
   }
 }
