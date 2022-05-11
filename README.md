@@ -12,14 +12,14 @@
 ##### Installing via npm
 
 ```bash
-npm install svelte-apexcharts apexcharts
+npm install svelte-apexcharts
 ```
 
 ## Usage
 
 ```js
 <script>
-  import { chart } from "svelte-apexcharts";
+  import Chart from "svelte-apexcharts";
   let options = {
     chart: {
       type: "bar",
@@ -36,7 +36,7 @@ npm install svelte-apexcharts apexcharts
   };
 </script>
 
-<div use:chart={options} />
+<Chart {options} />
 
 ```
 
