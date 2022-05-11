@@ -19,7 +19,7 @@ npm install svelte-apexcharts
 
 ```js
 <script>
-  import Chart from "svelte-apexcharts";
+  import Chart from 'svelte-apexcharts/Chart.svelte';
   let options = {
     chart: {
       type: "bar",
