@@ -1,11 +1,12 @@
-<script>
+<script lang="ts">
   import { onMount, onDestroy } from 'svelte';
-  let chartNode, chart;
-  export let options;
+  import type { ApexOptions } from 'apexcharts';
+
+  let chartNode: HTMLElement, chart: any;
+  export let options: ApexOptions;
 
   onMount(async () => {
     const ApexCharts = (await import('apexcharts')).default;
-
     chart = new ApexCharts(chartNode, options);
     chart.render();
   });

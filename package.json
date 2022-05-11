@@ -3,8 +3,8 @@
   "repository": "https://github.com/galkatz373/svelte-apexcharts",
   "version": "1.0.02",
   "scripts": {
-    "build": "svelte-kit package",
-    "publish": "svelte-kit package && cd package && npm publish",
+    "build": "svelte-kit build && svelte-kit package",
+    "publish": "svelte-kit build && svelte-kit package && cd package && npm publish",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
   },
